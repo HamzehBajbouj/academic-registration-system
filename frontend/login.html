@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    ;
+    <link rel="stylesheet" type="text/css" href="/css_files/login.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Academic Registration System</h1>
+    </header>
+    <main>
+      <form
+        id="login_form"
+        class="form_class"
+        action="login/login-access.php"
+        method="post"
+      >
+        <div class="form_div">
+          <label>Login:</label>
+          <input
+            class="field_class"
+            name="login_txt"
+            type="text"
+            placeholder="Please enter your username or email"
+            autofocus
+          />
+          <label>Password:</label>
+          <input
+            id="pass"
+            class="field_class"
+            name="password_txt"
+            type="password"
+            placeholder="Please enter your password"
+          />
+          <button
+            class="submit_class"
+            type="submit"
+            form="login_form"
+            onclick="return validLogin()"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>Developed By <a href="#">4 EIGEN 1;</a></p>
+    </footer>
+  </body>
+</html>

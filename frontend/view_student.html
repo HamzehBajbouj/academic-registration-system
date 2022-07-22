@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <link rel="stylesheet" type="text/css" href="/css_files/Admin_layout.css" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css_files/view_student.css" />
+    <title>View Students</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <n class="#name">Academic Registration System</n>
+      <a class="active" href="#home"> Logout </a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <div><h2>View Student Profile</h2></div>
+
+    <div class="container emp-profile">
+      <form method="post">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="profile-img">
+              <img src="/images/profile.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="profile-head">
+              <h5>XYZ Name</h5>
+            </div>
+            <h6>Software engineering student</h6>
+          </div>
+          <div class="col-md-2">
+            <input
+              type="submit"
+              class="profile-edit-btn"
+              name="btnAddMore"
+              value=""
+            />
+          </div>
+          <div class="col-md-2">
+            <input
+              type="submit"
+              class="profile-delete-btn"
+              name="btnAddMore"
+              value="Delete Profile"
+            />
+          </div>
+          <div class="col-md-2">
+            <input
+              type="submit"
+              class="profile-edit-btn"
+              name="btnAddMore"
+              value="Edit Profile"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4"></div>
+
+          <div class="col-md-8">
+            <div class="tab-content profile-tab" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <div class="row">
+                  <div class="col-md-6">
+                    <label>User Id</label>
+                  </div>
+                  <div class="col-md-6">
+                    <p>xyz1234</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label>Name</label>
+                  </div>
+                  <div class="col-md-6">
+                    <p>XYZ Name</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label>Email</label>
+                  </div>
+                  <div class="col-md-6">
+                    <p>xyz@gmail.com</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label>Phone</label>
+                  </div>
+                  <div class="col-md-6">
+                    <p>123 456 7890</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label>Course</label>
+                  </div>
+                  <div class="col-md-6">
+                    <p>SECJ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

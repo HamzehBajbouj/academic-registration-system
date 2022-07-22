@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="/css_files/Admin_layout.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Layout</title>
+</head>
+<body>
+  <div class="topnav">
+    <n class="#name">Academic Registration System</n>
+    <a class="active" href="#home"> Logout </a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+
+  </div>
+
+  
+    <div id="mySidenav" class="sidenav">
+      <n class="#name">ARS</n>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#"><i class="fab fa-book-open"></i>Course Catalogue</a>
+    <a href="#"><i class="fab fa-book"></i>Create Course</a>
+    <a href="#"><i class="fa fa-database" aria-hidden="true"></i>Student Catalogue</a>
+    <a href="#"><i class="fas fa-graduation-cap"></i>Create Student</a>
+    <a href="#"><i class="fas fa-male"></i>Admins Catalogue</a>
+    <a href="#"><i class="fas fa-plus"></i>Create Admin</a>
+    </div>
+    
+    <!-- <h2>Academic Registration System</h2> -->
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    </body>
+    </html> 
+</html>

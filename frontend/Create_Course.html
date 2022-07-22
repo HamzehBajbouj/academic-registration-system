@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css_files/Admin_layout.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css_files/create_course.css"
+    />
+    <title>create Course</title>
+</head>
+<body>
+    <body>
+        <div class="topnav">
+          <n class="#name">Academic Registration System</n>
+          <a class="active" href="#home"> Logout </a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+      
+        </div>
+
+        <h2>Create Course</h2>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="id">ID</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="id" name="id" placeholder="Please enter course ID">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="title">Title</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="title" name="title" placeholder="Please enter course name..">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+          <label for="description">Description</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="description" name="description" placeholder="Please enter course description..">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="code">Code</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="code" name="code" placeholder="Please enter course code..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="credits">Credits</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="credits" name="credits" placeholder="Please enter course credits..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="capacity">Capacity</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="capacity" name="capacity" placeholder="Please enter course capacity..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lecturer_name">Lecturer Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lecturer_name" name="lecturer_name" placeholder="Please enter course lecturer_name..">
+        </div>
+      </div>
+      <div class="button_position">
+        <input type="submit" value="Submit">
+      </div>
+  </form>
+</div>
+</body>
+</html>
